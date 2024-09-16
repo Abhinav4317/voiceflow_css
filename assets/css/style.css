@@ -1,0 +1,70 @@
+/* Custom Chatbot Styling */
+
+/* Background and container settings */
+.voiceflow-chat-container {
+  background-color: #2C4A5A;
+  border-radius: 8px;
+  width: 36rem;
+  height: auto;
+  bottom: 1rem;
+  right: 30rem;
+  position: fixed;
+}
+
+/* Chat header */
+.voiceflow-chat-header {
+  background-color: #416A81;
+  color: white;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+/* Chat messages */
+.voiceflow-chat-message-user {
+  background-color: #D79A30;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+  max-width: 15rem;
+}
+
+.voiceflow-chat-message-bot {
+  background-color: #7C3A00;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+  max-width: 30rem;
+}
+
+/* Chat input */
+.voiceflow-chat-input-container {
+  display: flex;
+  background-color: #416A81;
+  padding: 10px;
+  bottom: 1rem;
+}
+
+.voiceflow-chat-input {
+  background-color: #4A5568;
+  color: white;
+  border: none;
+  padding: 10px;
+  flex-grow: 1;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.voiceflow-chat-send-btn {
+  background-color: #4A5568;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
